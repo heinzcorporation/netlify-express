@@ -35,4 +35,5 @@ app.post('/new', async (req, res, next) => {
 	res.send('received')
 })
 
+module.exports = app;
 module.exports.handler = serverless(app);
